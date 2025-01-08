@@ -1,2 +1,2 @@
-release: python manage.py migrate  
-web: python manage.py runserver $PORT
+release: python backend/manage.py migrate  
+web: python backend/manage.py runserver $PORT
